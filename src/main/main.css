@@ -1,0 +1,16 @@
+.main-box {
+    width: 100%;
+    background-color: #F2F0F1 !important;
+}
+
+.main-box-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+.main-photo {
+    height: 84vh;
+    align-content: end;
+}
