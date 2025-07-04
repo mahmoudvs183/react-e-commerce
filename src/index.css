@@ -16,3 +16,17 @@ body {
 .border {
   border: 1px solid #000;
 }
+
+.dress-style-img {
+  height: 200px;
+  border-radius: 25px;
+}
+
+.dress-style-grid {
+  display: flex;
+  justify-content: end;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  position: relative;
+
+}

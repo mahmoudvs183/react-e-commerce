@@ -4,6 +4,7 @@ import Head1 from "./head1/Head1";
 import Brands from "./brands/Brands";
 import Products from "products/Products";
 import { Divider } from "@mui/material";
+import DressStyle from "dressStyle/DressStyle";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Products title="New Arrivals" />
       <Divider sx={{ my: 5 }} orientation="horizontal" variant="middle" flexItem />
       <Products title="Top Sellers" />
+      <DressStyle />
     </div>
   );
 }
